@@ -104,7 +104,7 @@ section {
   justify-content: flex-end;
 }
 .develop-section-img img {
-  margin-right: 80px;
+  margin-right: 309px;
 }
 .develop-section-contents h1 {
   font-size: 36px;
@@ -112,6 +112,28 @@ section {
 }
 .develop-section-contents p {
   width: 654px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+/* community section */
+.community {
+  display: flex;
+}
+.community-section-img {
+  display: flex;
+  justify-content: center;
+}
+.community-section-contents {
+  display: flex;
+  justify-content: flex-end;
+}
+.community-section-contents h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.community-section-contents p {
+  width: 700px;
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 40px;
