@@ -95,3 +95,24 @@ section {
   background-color: rgb(243, 145, 164);
   padding: 20px;
 }
+/* develop section */
+.develop {
+  display: flex;
+}
+.develop-section-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.develop-section-img img {
+  margin-right: 80px;
+}
+.develop-section-contents h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.develop-section-contents p {
+  width: 654px;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
