@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+section {
+  margin-bottom: 200px;
+}
 /* hero section */
 .hero {
   display: flex;
@@ -51,4 +54,44 @@ body {
 }
 .half-width {
   width: 50%;
+}
+/* goal section */
+.goal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.goal h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.goal-cards {
+  width: 1383px;
+  display: flex;
+  justify-content: space-between;
+}
+.goal-card {
+  width: 360px;
+  height: 376px;
+  border-radius: 20px;
+}
+.goal-card h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.goal-card p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.goal-card-1 {
+  background-color: rgb(243, 185, 165);
+  padding: 20px;
+}
+.goal-card-2 {
+  background-color: rgb(197, 243, 197);
+  padding: 20px;
+}
+.goal-card-3 {
+  background-color: rgb(243, 145, 164);
+  padding: 20px;
 }
