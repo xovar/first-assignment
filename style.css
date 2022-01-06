@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* hero section */
+.hero {
+  display: flex;
+}
+.hero-section-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 240px;
+}
+.hero-section-contents h1 {
+  font-size: 65px;
+  margin: 0;
+}
+.hero-section-contents p {
+  width: 471px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.hero-section-border {
+  border-left: 2px solid orangered;
+  padding-left: 20px;
+  border-radius: 1px;
+}
+.text-color {
+  color: orangered;
+}
+.btn {
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: rgb(54, 181, 231);
+  color: white;
+}
+.hero-section-contents h3 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 40px;
+}
+.hero-section-img {
+  background-image: url(./images/person/person-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 623px;
+  width: 426px;
+}
+.half-width {
+  width: 50%;
+}
